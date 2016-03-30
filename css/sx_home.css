@@ -1,0 +1,232 @@
+/* CSS Document */
+body {
+	font-family: "Microsoft Yahei", "微软雅黑", Arial;
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+	color: #333;
+	background: url(../images/bg_index_top.png) repeat-x top;
+}
+a {color:#333; text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {color:#000;text-decoration:none;}
+a:active {color:#333;}
+ul,ol,li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;	
+}
+dl,dt,dd {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border: 0;	
+}
+br {
+	font-size: 0;
+	line-height: 10px;
+	height: 10px;
+}
+
+/* topFrame */
+.topFrame {
+	min-width: 1200px;
+	width: 100%;
+	height: 80px;
+	background: url(../images/logo_20150615.png) no-repeat 15px center;
+	position: relative;
+}
+.topFrame .userinfo {
+	position: absolute;
+	right: 25px;
+	bottom: 20px;
+}
+.topFrame .userinfo a {
+	font-weight: bold;
+	color: #06C;
+}
+
+/* navFrame */
+.navFrame {
+	min-width: 1200px;
+	height: 35px;
+	line-height: 35px;
+	background-color: #1b926f;
+}
+.navFrame ul li {
+	display: block;
+	padding: 0px 30px;
+	float: left;
+	color: #FFF;
+	text-align: center;
+	font-size: 14px;
+}
+.navFrame ul li a {
+	display: block;
+	color: #FFF;
+}
+.navFrame ul li a:visited {text-decoration:none;}
+.navFrame ul li a:hover {color:#FFF;text-decoration:none;}
+.navFrame ul li a:active {color:#FFF;}
+
+.navFrame ul li.hover {
+	background-color: #088762;
+	font-weight: bold;
+}
+
+.navFrame1 {
+	min-width: 1200px;
+	height: 35px;
+	line-height: 35px;
+	background-color: #0fa17f;
+}
+.navFrame1 ul li {
+	display: block;
+	padding: 0px 30px;
+	float: left;
+	color: #FFF;
+	text-align: center;
+	font-size: 14px;
+}
+.navFrame1 ul li a {
+	display: block;
+	color: #FFF;
+}
+.navFrame1 ul li a:visited {text-decoration:none;}
+.navFrame1 ul li a:hover {color:#FFF;text-decoration:none;}
+.navFrame1 ul li a:active {color:#FFF;}
+
+.navFrame1 ul li.hover {
+	background: url(../images/icon_20150604.png) no-repeat center bottom;
+	font-weight: bold;
+}
+
+/* homeMain */
+.homeMain {
+	min-width: 1200px;
+	padding: 30px;
+}
+.homeMain td.mypic img {
+	width: 100px;
+	height: 100px;
+	padding: 2px;
+	border: 1px solid #CDCDCD;
+}
+.homeMain td.mytext {
+	padding-left: 15px;
+	line-height: 25px;
+}
+.homeMain .info {
+	padding-top: 30px;
+}
+.homeMain .info .title {
+	color: #006f6b;
+	font-weight: bold;
+	padding: 0px 3px 10px;
+	border-bottom: 1px solid #b0d4c8;
+}
+.homeMain .info .content {
+	padding: 10px 3px 0px;
+}
+.homeMain .info .content ul li {
+	line-height: 25px;
+}
+.homeMain .info .content ul li span {
+	font-size: 12px;
+	color: #999;
+	float: right;
+}
+.homeMain .info1 {
+	
+}
+.homeMain .info1 .title {
+	color: #006f6b;
+	font-weight: bold;
+	padding: 0px 3px 10px;
+	border-bottom: 1px solid #b0d4c8;
+}
+.homeMain .info1 .content {
+	padding: 60px 0px;
+}
+.homeMain .info1 .content {
+	padding: 60px 0px;
+}
+.homeMain .info1 .content .flow_1 {
+	width: 740px;
+	height: 134px;
+	background: url(../images/jd1_20150604.png) no-repeat;
+	margin: 0 auto;
+}
+.homeMain .info1 .content .flow_2 {
+	width: 740px;
+	height: 134px;
+	background: url(../images/jd2_20150604.png) no-repeat;
+	margin: 0 auto;
+}
+.homeMain .info1 .content .flow_3 {
+	width: 740px;
+	height: 134px;
+	background: url(../images/jd3_20150604.png) no-repeat;
+	margin: 0 auto;
+}
+.homeMain .info1 .content .flow_4 {
+	width: 740px;
+	height: 134px;
+	background: url(../images/jd4_20150604.png) no-repeat;
+	margin: 0 auto;
+}
+
+/* pageMain */
+.pageMain {
+	min-width: 1200px;
+	padding: 30px 30px 30px 0px;
+}
+.pageMain_Menu {
+	width: 166px;
+	float: left;
+}
+.pageMain_Menu ul li {
+	margin-bottom: 10px;
+	font-size: 14px;	
+}
+.pageMain_Menu ul li a {
+	display: block;
+	width: 166px;
+	height: 32px;
+	line-height: 32px;
+	color: #066563;
+	text-indent: 30px;
+	background: url(../images/bg02_20150603.png) no-repeat left -32px;		
+}
+.pageMain_Menu ul li a.hover {
+	font-weight: bold;
+	color: #FFF;
+	background: url(../images/bg02_20150603.png) no-repeat left top;	
+}
+.pageMain_Menu ul li a:hover {
+	font-weight: bold;
+	color: #FFF;
+	background: url(../images/bg02_20150603.png) no-repeat left top;		
+}
+.pageMain_Info {
+	
+}
+.pageMain_Info .title {
+	color: #006f6b;
+	font-weight: bold;
+	padding: 0px 3px 10px;
+	border-bottom: 1px solid #b0d4c8;
+}
+.pageMain_Info .content {
+	padding: 20px 0px;
+}
+
+/* footer */
+.footer {
+	font-size: 13px;
+	border-top: 1px solid #b0d4c8;
+	padding: 25px 0px;
+	text-align: center;
+	color: #666;
+}

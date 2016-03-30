@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>国网陕西统一业务平台</title>
+<link href="css/sx_login.css" rel="stylesheet" type="text/css" />
+<script>
+function setTabs(name,order,n){
+	for(i=1;i<=n;i++){
+		var menu = document.getElementById(name + i);
+		var con = document.getElementById(name + "_" + i);
+		menu.className=(i==order)?"":"hover";
+		con.style.display=(i==order)?"block":"none";
+	}
+}
+</script>
+</head>
+
+<body>
+<!-- 头部开始 -->
+<div class="header">
+  <div class="naver">
+    <ul>
+      <li><a class="home" href="http://www.sn.sgcc.com.cn/"></a></li>
+      <li><a class="gywm" href="http://www.sn.sgcc.com.cn/html/main/col2/column_2_1.html"></a></li>
+      <li><a class="xwzx" href="http://www.sn.sgcc.com.cn/html/main/col3/column_3_1.html"></a></li>
+      <li><a class="khfw" href="http://www.sn.sgcc.com.cn/html/main/col4/column_4_1.html"></a></li>
+      <li><a class="swfw" href="http://www.sn.sgcc.com.cn/html/main/col5/column_5_1.html"></a></li>
+      <li><a class="hdjl" href="http://www.sn.sgcc.com.cn/html/main/col6/column_6_1.html"></a></li>
+    </ul>
+  </div>
+</div>
+<!-- 头部结束 -->
+
+<!-- 主体开始 -->
+<div class="mainer">
+  <div class="loginer">
+    <div class="text" style="text-align:left;">
+      <span style="font-size:18px;color:red;font-weight:bold;">重要提示：</span><br />
+      一、没有使用过人才评价中心统一业务平台的用户，必须先点击"立即注册"进行注册，注册成功后才可登录系统。 <br />
+      二、请使用IE8及以上，firefox，360，chrome浏览器。 <br />
+      三、推荐内网用户使用QtWeb浏览器，点击<a href="http://pj.cphr.com.cn/sub/upload/QtWeb_zjhb.rar"><font style="color:red;font-weight:900;"> 此处 </font></a>下载。 <br />
+      四、技术支持电话：010-63415474。 <br />
+
+    </div>
+
+		    <div class="dlk">
+              <div class="login_tabs">
+                <ul>
+                  <li id="a1" onclick="setTabs('a',1,2)">个人登录</li>
+                  <li id="a2" onclick="setTabs('a',2,2)" class="hover">企业登录</li>
+                </ul>
+              </div>
+              <div id="a_1" style="padding-top:24px; width:292px;margin:0 auto;">
+		      <table width="292" border="0" align="center" cellpadding="0" cellspacing="0" style="">
+		        <tr>
+		          <td width="65">
+		        	身份证号
+		          	</td>
+		          <td colspan="2"><input id="user_sfz" name="user_sfz" type="text" class="dlinput" />
+		          </td>
+		        </tr>
+		        <tr>
+		          <td height="16" colspan="3"></td>
+		        </tr>
+		        <tr>
+		          <td>登录密码</td>
+		          <td colspan="2"><input id="user_pass" name="user_pass" type="password" class="dlinput" />
+		          <input id="loginType" name="loginType" type="hidden" value="3"/>
+		          </td>
+		        </tr>
+		        <tr>
+		          <td height="16" colspan="3"></td>
+		        </tr>
+		        <tr>
+		          <td>验证码</td>
+		          <td width="100"><input id="user_code" name="user_code" type="text" class="dlinput" style="width:90px;" maxlength="4" /></td>
+		          <td width="127"><img id="yzm" alt="请点击刷新检验码" src="" width="98" height="27"  onClick="javascript:document.getElementById('yzm').src=this.src+'&args='+Math.random();"/></td>
+		        </tr>
+		        <tr>
+		          <td height="16" colspan="3"></td>
+		        </tr>
+		        <tr>
+		          <td>&nbsp;</td>
+		          <td colspan="2"><input type="button" value="登 录" class="loginbtn" onclick="window.location.href='home.html'" /></td>
+		        </tr>
+		        <tr>
+		          <td>&nbsp;</td>
+		          <td colspan="2">
+
+		          <table width="224" border="0" cellspacing="0" cellpadding="0">
+		            <tr>
+		              <td height="24"><a href="password.html" class="mm">忘记登录密码？</a></td>
+		              <td align="right"><a href="reg.html" class="zc">立即注册</a></td>
+		            </tr>
+		          </table>
+		          </td>
+		        </tr>
+		      </table>
+              </div>
+              <div id="a_2" style="display:none;padding-top:24px;margin:0 auto;">
+		      <table width="292" border="0" align="center" cellpadding="0" cellspacing="0" style="">
+		        <tr>
+		          <td width="65">
+		        	企业帐号
+		          	</td>
+		          <td colspan="2"><input id="user_sfz" name="user_sfz" type="text" class="dlinput" />
+		          </td>
+		        </tr>
+		        <tr>
+		          <td height="16" colspan="3"></td>
+		        </tr>
+		        <tr>
+		          <td>登录密码</td>
+		          <td colspan="2"><input id="user_pass" name="user_pass" type="password" class="dlinput" />
+		          <input id="loginType" name="loginType" type="hidden" value="3"/>
+		          </td>
+		        </tr>
+		        <tr>
+		          <td height="16" colspan="3"></td>
+		        </tr>
+		        <tr>
+		          <td>验证码</td>
+		          <td width="100"><input id="user_code" name="user_code" type="text" class="dlinput" style="width:90px;" maxlength="4" /></td>
+		          <td width="127"><img id="yzm" alt="请点击刷新检验码" src="" width="98" height="27"  onClick="javascript:document.getElementById('yzm').src=this.src+'&args='+Math.random();"/></td>
+		        </tr>
+		        <tr>
+		          <td height="16" colspan="3"></td>
+		        </tr>
+		        <tr>
+		          <td>&nbsp;</td>
+		          <td colspan="2"><input type="button" value="登 录" class="loginbtn" onclick="loginUser()" /></td>
+		        </tr>
+		        </table>
+              </div>
+		    </div>
+  </div>
+</div>
+<!-- 主体结束 -->
+
+<!-- 底部开始 -->
+<div class="footer">
+通讯地址：北京市西城区白广路二条一号&nbsp;&nbsp;邮编：100761<br>
+技术支持：<a target="_blank" href="http://www.yehr.com.cn">北京伊尔锐康人力资源有限公司</a>&nbsp;&nbsp;咨询电话：(010)63415474、60617290</div>
+<!-- 底部结束 -->
+</body>
+</html>

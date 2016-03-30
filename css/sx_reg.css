@@ -1,0 +1,181 @@
+/* CSS Document */
+body {
+	font-family: "Microsoft Yahei", "微软雅黑", Arial;
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+	color: #333;
+	background: url(../images/bg01_20150603.png) repeat-x center 129px;
+}
+a {color:#333; text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {color:#333;text-decoration:none;}
+a:active {color:#333;}
+ul,ol,li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;	
+}
+dl,dt,dd {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border: 0;	
+}
+br {
+	font-size: 0;
+	line-height: 10px;
+	height: 10px;
+}
+
+/* 头部 */
+.header {
+	max-width: 1200px;
+	min-width: 1000px;
+	height: 130px;
+	margin: 0 auto;
+	background: url(../images/logo_20150603.png) no-repeat left center;
+	position: relative;	
+}
+.header .naver {
+	float: right;
+	overflow: hidden;
+	margin-top: 76px;
+}
+.header .naver ul li {
+	float: left;
+	margin-right: 8px;
+}
+.header .naver ul li a {
+	display: block;
+	width: 80px;
+	height: 26px;
+}
+.header .naver ul li a.home {
+	background: url(../images/nav_20150603.png) no-repeat 0 0;
+	width: 60px;
+}
+.header .naver ul li a.home:hover {
+	background: url(../images/nav_20150603.png) no-repeat 0 -27px;
+}
+.header .naver ul li a.gywm {
+	background: url(../images/nav_20150603.png) no-repeat -68px 0;
+}
+.header .naver ul li a.gywm:hover {
+	background: url(../images/nav_20150603.png) no-repeat -68px -27px;
+}
+.header .naver ul li a.xwzx {
+	background: url(../images/nav_20150603.png) no-repeat -156px 0;
+}
+.header .naver ul li a.xwzx:hover {
+	background: url(../images/nav_20150603.png) no-repeat -156px -27px;
+}
+.header .naver ul li a.khfw {
+	background: url(../images/nav_20150603.png) no-repeat -244px 0;
+}
+.header .naver ul li a.khfw:hover {
+	background: url(../images/nav_20150603.png) no-repeat -244px -27px;
+}
+.header .naver ul li a.swfw {
+	background: url(../images/nav_20150603.png) no-repeat -332px 0;
+}
+.header .naver ul li a.swfw:hover {
+	background: url(../images/nav_20150603.png) no-repeat -332px -27px;
+}
+.header .naver ul li a.hdjl {
+	background: url(../images/nav_20150603.png) no-repeat -420px 0;
+}
+.header .naver ul li a.hdjl:hover {
+	background: url(../images/nav_20150603.png) no-repeat -420px -27px;
+}
+.header .links {
+	font-size: 12px;
+	position: absolute;
+	right: 10px;
+	bottom: 24px;
+}
+.header .links span {
+	padding: 0 5px;
+}
+
+
+/* 登录主体 */
+.mainer {
+	height: 500px;
+	background: url(../images/pic02_20150603.jpg) no-repeat center center;
+}
+.mainer .reg {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.mainer .reg table td {
+	padding: 4px 5px;
+	font-size: 14px;
+}
+.mainer .reg table td.title {
+	font-size: 20px;
+	font-weight: bold;
+}
+.mainer .reg table td.tip {
+	font-size: 12px;
+	color: #F00;
+}
+.mainer .reg table td.dltext {
+	font-size: 12px;
+}
+.mainer .reg table td.dltext a {
+	color: #004684;
+	text-decoration: underline;
+}
+
+/* 登录底部 */
+.footer {
+	padding: 25px 0px;
+	line-height: 25px;
+	text-align: center;
+	color: #666;
+}
+
+/* button,input */
+.zcinput {
+	margin: 0;
+	padding: 0;
+	border: 1px solid #bebebe;
+	width: 350px;
+	height: 30px;
+	line-height: 30px;
+	text-indent: 2px;
+	font-size: 14px;
+	background: url(../images/bg03_20140612.png) no-repeat top left;
+}
+.zcselect {
+	width: 350px;
+	border: 1px solid #ccc;
+	padding: 5px;
+	font-size: 14px;
+}
+.zcbtn {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	background: url(../images/tp08_20140612.png) no-repeat;
+	border: none 0;
+	width: 119px;
+	height: 37px;
+	line-height: 37px;
+	cursor: pointer;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #FFF;
+	padding: 0;
+	margin: 0;
+}
+.zcbtn:hover, .zcbtn:focus {
+	background: url(../images/tp07_20140612.png) no-repeat;
+}
+.zcbtn:active {
+	color: #ccc;
+}
